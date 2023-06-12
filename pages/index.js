@@ -27,7 +27,7 @@ export default function Home({blog}) {
 }
 
 export async function getStaticProps(){
-  const res = await fetch('https://lee-react-sample.s3.ap-northeast-2.amazonaws.com/data.json');
+  const res = await fetch('https://hye-json.s3.ap-northeast-2.amazonaws.com/data.json');
   const data = await res.json();
   
   return{
