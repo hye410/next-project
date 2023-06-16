@@ -2,7 +2,7 @@ import Layout from "@/components/Layout"
 import Image from "next/image"
 import Link from "next/link"
 import { useEffect } from "react"
-//const~ 말고 import해야 하는 점 유의하기!
+
 const Content = ({blogContent}) => {
   
   const Selection_KEY =  'selection';

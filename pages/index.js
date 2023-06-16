@@ -1,22 +1,17 @@
 import Layout from "@/components/Layout"
 import MyList from "@/components/MyList"
 import Head from "next/head"
-import Link from "next/link"
-import { useEffect } from "react"
 
-// import styles from "@/styles/index.modules.css";
 export default function Home({blog}) {
-// useEffect(() =>{
-//   localStorage.setItem('src','data')
-// },[])
+
   return (
     <>
     <Layout>
     <Head>
-      <title>About Dog</title>
+      <title>About Dogs</title>
     </Head>
     <main>
-      <h1>All About Dog</h1>
+      <h1>All About Dogs</h1>
       <MyList 
       blog={blog}
       />
