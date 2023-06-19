@@ -21,10 +21,12 @@
     text-align: center;
     background-color: #555;
     color: #fff;
+    cursor: pointer;
 }
 
 .list>div>ul>li{    
     position:relative;
+    cursor: pointer;
 }
 
 .list>div>ul>li>ul{
