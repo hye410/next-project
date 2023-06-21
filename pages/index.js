@@ -8,7 +8,7 @@ export default function Home({blog}) {
     <>
     <Layout>
     <Head>
-      <title>About Dogs</title>
+      <title>All About Dogs</title>
     </Head>
     <main>
       <h1>All About Dogs</h1>
