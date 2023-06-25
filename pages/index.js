@@ -1,5 +1,5 @@
 import Layout from "@/components/Layout"
-import MyList from "@/components/MyList"
+import DogList from "@/components/DogList"
 import Head from "next/head"
 
 export default function Home({blog}) {
@@ -12,7 +12,7 @@ export default function Home({blog}) {
     </Head>
     <main>
       <h1>All About Dogs</h1>
-      <MyList 
+      <DogList 
       blog={blog}
       />
     </main>

@@ -3,7 +3,7 @@ import { useState } from "react";
 import Pagination from "./Pagination";
 
 
-function MyList({blog}){
+function DogList({blog}){
 
   const [toggle,setToggle] = useState(false);
   const [sortBy,setSortBy] = useState('id');
@@ -66,7 +66,8 @@ function MyList({blog}){
             <tr key={dog.id}>
               <td>{dog.id}</td>
               <td>
-                <Link href="/member/[id]" as={`/member/${dog.id}`}>{dog.name}
+                <Link href="/dog/[id]" as={`/dog/${dog.id}`}>
+                  {dog.name}
                 </Link>
               </td>
               <td>{changeDate(dog.date)}</td>
@@ -83,4 +84,4 @@ function MyList({blog}){
   )
 }
 
-export default MyList;
+export default DogList;
